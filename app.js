@@ -1,0 +1,20 @@
+const supabaseUrl = 'https://mxqlvxtivcbvmhhdrqrp.supabase.co'
+const supabaseKey =" eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im14cWx2eHRpdmNidm1oaGRycXJwIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQ3MjgwMTMsImV4cCI6MjA3MDMwNDAxM30.5YRc0qAtjyfbIyG9IQgEL-n0HEKRfCyFPNf6Obqq3nI"
+const supabase = window.supabase.createClient(supabaseUrl, supabaseKey)
+
+ const country       = document.getElementById("country");
+  const city          = document.getElementById("city");
+  const course        = document.getElementById("course");
+  const proficiency   = document.getElementById("proficiency");
+  const fullname      = document.getElementById("fullname");
+  const fathername    = document.getElementById("fathername");
+  const email         = document.getElementById("email");
+  const phone         = document.getElementById("phone");
+  const cnic          = document.getElementById("cnic");
+  const fathercnic    = document.getElementById("fathercnic");
+  const dob           = document.getElementById("dob");
+  const gender        = document.getElementById("gender");
+  const address       = document.getElementById("address");
+  const qualification = document.getElementById("qualification");
+  const laptop        = document.getElementById("laptop");
+  const picture       = document.getElementById("picture");
